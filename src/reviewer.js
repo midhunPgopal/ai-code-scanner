@@ -1,4 +1,4 @@
-const {fs} = require("fs");
+const fs = require("fs");
 const {OpenAI} = require("openai");
 
 const client = new OpenAI({
